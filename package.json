@@ -8,6 +8,8 @@
       "packages/xstate-viz/example"
     ]
   },
+  "exports": "./es/index.js",
+  "type": "module",
   "scripts": {
     "preinstall": "node ./scripts/ensure-yarn.js",
     "postinstall": "manypkg check",
